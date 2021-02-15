@@ -1,0 +1,19 @@
+.contact-content{
+    height: 100vh;
+    margin-top: 32px;
+    padding: 2px;
+    position: relative;
+    overflow: hidden;
+}
+.contact-content::after{
+    content: "";
+    background-image: url('typewriter-font.png');
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+}
+
+
